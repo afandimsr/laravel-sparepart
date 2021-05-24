@@ -1,0 +1,71 @@
+
+
+.bg_login{
+  background-image: url("../img/vira_pkl.png");
+  min-height: 380px;
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+.bg-blue{
+  background-color: rgb(40, 191, 218);
+}
+.navbar-min-height{
+  min-height: 100px;
+}
+
+.flexbox-container{
+  display: flex;
+
+}
+.content1{
+  flex: 2;
+}
+.content2{
+  flex: 2;
+}
+.content3{
+  flex: 1;
+}
+.title-cetak{
+  font-size: 40px;
+  margin: 0;
+
+}
+.cetak-margin{
+  margin: 10px;
+}
+.logo-login{
+  /* min-height: 200px; */
+  width: 30%;
+  padding: 15px;
+  background-color:rgba(255,255,255,0.9);
+  border-radius: 5px;
+
+
+
+}
+h1.reset{
+  margin: 0;
+}
+.height-custome{
+  height: 100vh;
+}
+
+.overlay1{
+    position: absolute;
+    width: 100%;
+    background-color: black;
+    height: 100%;
+    opacity: 0.8;
+    z-index: 1;
+}
+
+.overlay2{
+    /* position: absolute; */
+    z-index: 5;
+}
+
